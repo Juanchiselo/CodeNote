@@ -119,9 +119,9 @@
     <!-- You can use resources across hosts and form factors. -->
     <Resources>
       <bt:Images>
-        <bt:Image id="JJS.tpicon_16x16" DefaultValue="https://localhost:3000/assets/icon-16.png" />
-        <bt:Image id="JJS.tpicon_32x32" DefaultValue="https://localhost:3000/assets/icon-32.png" />
-        <bt:Image id="JJS.tpicon_80x80" DefaultValue="https://localhost:3000/assets/icon-80.png" />
+        <bt:Image id="JJS.tpicon_16x16" DefaultValue="https://localhost:3000/assets/codenote-16.png" />
+        <bt:Image id="JJS.tpicon_32x32" DefaultValue="https://localhost:3000/assets/codenote-32.png" />
+        <bt:Image id="JJS.tpicon_80x80" DefaultValue="https://localhost:3000/assets/codenote-80.png" />
       </bt:Images>
       <bt:Urls>
         <bt:Url id="JJS.Taskpane.Url" DefaultValue="https://localhost:3000/index.html" />

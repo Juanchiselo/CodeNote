@@ -1,6 +1,6 @@
 import * as React from 'react';
 // import { Button, ButtonType } from 'office-ui-fabric-react';
-import Header from './Header';
+import Splash from './Splash';
 // import HeroList, { HeroListItem } from './HeroList';
 import Progress from './Progress';
 
@@ -24,6 +24,8 @@ export default class App extends React.Component<AppProps, AppState> {
     }
 
     componentDidMount() {
+
+
         this.setState({
             listItems: [
                 {
@@ -66,7 +68,7 @@ export default class App extends React.Component<AppProps, AppState> {
             return (
                 <Progress
                     title={title}
-                    logo='assets/logo-filled.png'
+                    logo='assets/codenote-filled.png'
                     message='Please sideload your addin to see app body.'
                 />
             );
@@ -74,7 +76,7 @@ export default class App extends React.Component<AppProps, AppState> {
 
         return (
             <div className='splash-screen'>
-                <Header logo='assets/logo-filled.png' 
+                <Splash logo='assets/codenote-filled.png' 
                         title={this.props.title} 
                         message='CodeNote' />
                 {/* <HeroList message='Discover what CodeNote can do for you today!' 
