@@ -130,7 +130,7 @@
       </bt:Urls>
       <!-- ShortStrings max characters==125. -->
       <bt:ShortStrings>
-        <bt:String id="JJS.TaskpaneButton.Label" DefaultValue="Open CodeNote" />
+        <bt:String id="JJS.TaskpaneButton.Label" DefaultValue="Code" />
         <bt:String id="JJS.Group1Label" DefaultValue="CodeNote" />
         <bt:String id="JJS.GetStarted.Title" DefaultValue="Get started with your sample add-in!" />
       </bt:ShortStrings>
